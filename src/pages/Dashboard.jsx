@@ -6,7 +6,7 @@ import { dashboardStyles } from "../assets/dummyStyles";
 import { useAuth } from "@clerk/clerk-react";
 
 /* API base (adjust via env in production if needed) */
-const API_BASE = import.meta.env.VITE_API_BASE;
+const API_BASE = "https://invoicebackend-six.vercel.app";
 
 /* normalize client object (same logic as before) */
 function normalizeClient(raw) {

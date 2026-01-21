@@ -6,7 +6,7 @@ import {
   customStyles,
 } from "../assets/dummyStyles";
 
-const API_BASE = import.meta.env.VITE_API_BASE;
+const API_BASE = "https://invoicebackend-six.vercel.app";
 
 /* ---------- small icon components ---------- */
 const UploadIcon = ({ className = "w-5 h-5" }) => (

@@ -9,10 +9,10 @@ export default function Footer() {
           © {new Date().getFullYear()} InvoiceAI · Built by Aparna K - React Developer
         </div>
         <div className={footerStyles.links}>
-          <a href="/terms" className={footerStyles.link}>
+          <a href="#" className={footerStyles.link}>
             Terms
           </a>
-          <a href="/privacy" className={footerStyles.link}>
+          <a href="#" className={footerStyles.link}>
             Privacy
           </a>
         </div>
